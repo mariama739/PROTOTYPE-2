@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-image: url(image/WhatsApp\ Image\ 2024-05-21\ à\ 09.18.21_9d6e318e.jpg );
+    background-attachment: fixed;
+}
+.rouge{
+    color: #CB0D0D;
+}
+.navbar{
+    background-color: #490909;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav{
+    margin-left: 38%;
+    gap: 20px;
+}
+.carte{
+    background-color: #F6E1C5;
+}
+button[type=button]{
+    background-color: #7B261A;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+.positi{
+    position: absolute;
+    bottom: -140px;
+}
+.mage{
+    margin-left: 35%;
+}
+@media (max-width:1250px) {
+    .mage{
+        margin: 0;
+    }
+    .positi{
+        position: static;
+        padding-bottom: 40px;
+    }
+}
+.bac{
+    background-color: #A5342BB0;
+}
+.bor{
+    border: 1px solid #F6E1C5;
+    border-radius: 5px;
+}
+.line{
+    letter-spacing: 2px;
+}
+.foot{
+    background-color: #311919;
+}
+/* section ABOUT */
+.pos{
+    position: relative;
+    bottom: 20%;
+}
+@media (max-width:1250px) {
+    .imm{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .pos {
+        position: static;
+    }
+}
+.poss1{
+    position: relative;
+    left: 75%;
+    bottom: -50px;
+}
+.poss{
+    position: relative;
+    top: -100px;
+}
+.poss2 {
+    position: relative;
+    bottom: -50px;
+}
+.poss3 {
+    position: relative;
+    top: -100px;
+    left: 70%;
+}
+@media (max-width:1250px) {
+    .poss, .poss1, .poss2, .poss3 {
+        position: static;
+        padding-bottom: 30px;
+    }
+}
+
+/* section store */
+.bor1 {
+    border: 1px solid #CD5449;
+    border-radius: 5px;
+}
+.butto{
+    border-bottom: 1px solid #CFAFAD;
+}
+.butto-red{
+    color: #A5342B;
+    border-bottom: 1px solid #CFAFAD;
+}
+.fon{
+    font-family: "Merienda", cursive;
+}
